@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FruitsSell"
+    tools:showIn="@layout/activity_fruits_sell">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:lineSpacingExtra="12sp"
+                android:text="@string/fruits"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="@string/click_on_the_image"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/appple"
+                android:clickable="true"
+                android:id="@+id/if1"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/apple"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/banana"
+                android:id="@+id/if2"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/banana"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/orange"
+                android:id="@+id/if3"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:layout_marginBottom="1dp"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/orange"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/if4"
+                android:src="@drawable/custardapple"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:layout_marginBottom="1dp"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/custard_apple"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:id="@+id/if5"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/guava"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/guava"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/if6"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/pineapple"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/pineapple"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/if7"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/grapes"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/grapes"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:id="@+id/if8"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/mango"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/mango"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/if9"
+                android:src="@drawable/strawberry"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/strawberry"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:id="@+id/if10"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/pome"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/pomegranate"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:clickable="true"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/if11"
+                android:src="@drawable/water"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/watermelon"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:id="@+id/if13"
+                android:layout_marginLeft="35dp"
+                android:clickable="true"
+                android:src="@drawable/chicku"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/chicku"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:id="@+id/if14"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/papaya"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/papaya"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/if15"
+                android:layout_width="50dp"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/muskmelon"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/muskmelon"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="35dp"
+                android:id="@+id/if16"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/mosambi"
+                android:clickable="true"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/mosambi"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.v4.widget.NestedScrollView>
